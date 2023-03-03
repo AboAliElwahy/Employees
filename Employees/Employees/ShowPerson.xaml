@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Employees.ShowPerson"
+             BackgroundColor="Beige"
+             Padding="10"
+             FlowDirection="RightToLeft"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView/>
+            <ScrollView>
+                <Frame Padding="5" BorderColor="Black" CornerRadius="10">
+                    <StackLayout>
+                        <StackLayout>
+                            <Label Text="الاسم"/>
+                            <Entry IsReadOnly="True" x:Name="Name"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="النوع"/>
+                            <Entry IsReadOnly="True"  x:Name="Gender"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الحالة الاجتماعية"/>
+                            <Entry IsReadOnly="True" x:Name="Marital"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الموقف من التجدنيد"/>
+                            <Entry IsReadOnly="True" x:Name="Milatiry"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="العنوان"/>
+                            <Entry IsReadOnly="True" x:Name="Address"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="رقم الكمبيوتر"/>
+                            <Entry IsReadOnly="True" x:Name="ComputerNO"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="رقم الملف"/>
+                            <Entry IsReadOnly="True" x:Name="FileNO"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="اسم الام"/>
+                            <Entry IsReadOnly="True" x:Name="MotherName"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="التليفون"/>
+                            <Entry IsReadOnly="True" x:Name="Phone"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الرقم التاميني"/>
+                            <Entry IsReadOnly="True" x:Name="InsuranceNO"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تقدير التقرير السابق"/>
+                            <Entry IsReadOnly="True" x:Name="PrevReport"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الجزاءات ان وجد"/>
+                            <Entry IsReadOnly="True" x:Name="Punish"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="التدرج الوظيفي"/>
+                            <Entry IsReadOnly="True" x:Name="Gradation"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المستوى الوظيفي"/>
+                            <Entry IsReadOnly="True" x:Name="Level"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الدورات الحاصل عليها"/>
+                            <Entry IsReadOnly="True" x:Name="Cources"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الاجازات الخاصة الحاصل عليها"/>
+                            <Entry IsReadOnly="True" x:Name="Holiday"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الدرجة"/>
+                            <Entry IsReadOnly="True" x:Name="Degree"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ الحصول علي الدرجة"/>
+                            <Entry IsReadOnly="True" x:Name="DegreeDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المجموعة الوظيفية"/>
+                            <Entry IsReadOnly="True" x:Name="CarrerGroup"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المجموعة النوعية"/>
+                            <Entry IsReadOnly="True" x:Name="QualityGroup"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المسمى الوظيفي"/>
+                            <Entry IsReadOnly="True" x:Name="JobTitle"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="العمل القائم به"/>
+                            <Entry IsReadOnly="True" x:Name="JobWork"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المؤهل"/>
+                            <Entry IsReadOnly="True" x:Name="Qualification"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تخصص المؤهل"/>
+                            <Entry IsReadOnly="True" x:Name="QualificationSpeciality"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ التعيين"/>
+                            <Entry IsReadOnly="True" x:Name="HiringDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ الميلاد"/>
+                            <Entry IsReadOnly="True" x:Name="BirthDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الرقم القومي"/>
+                            <Entry IsReadOnly="True" x:Name="NationalID"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="القطاع"/>
+                            <Entry IsReadOnly="True" x:Name="Section"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="جهة العمل"/>
+                            <Entry IsReadOnly="True" x:Name="WorkAt"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

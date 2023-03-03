@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Employees.NewPerson"
+             BackgroundColor="White"
+             FlowDirection="RightToLeft"
+             Padding="5"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView/>
+            <ScrollView>
+                <Frame Padding="5" BorderColor="Black" CornerRadius="10">
+                    <StackLayout>
+                        <StackLayout>
+                            <Label Text="الاسم"/>
+                            <Entry x:Name="Name"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="النوع"/>
+                            <Entry x:Name="Gender"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الحالة الاجتماعية"/>
+                            <Entry x:Name="Marital"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الموقف من التجدنيد"/>
+                            <Entry x:Name="Milatiry"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="العنوان"/>
+                            <Entry x:Name="Address"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="رقم الكمبيوتر"/>
+                            <Entry x:Name="ComputerNO" Keyboard="Numeric"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="رقم الملف"/>
+                            <Entry x:Name="FileNO" Keyboard="Numeric"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="اسم الام"/>
+                            <Entry x:Name="MotherName"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="التليفون"/>
+                            <Entry x:Name="Phone"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الرقم التاميني"/>
+                            <Entry x:Name="InsuranceNO" Keyboard="Numeric"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تقدير التقرير السابق"/>
+                            <Entry x:Name="PrevReport"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الجزاءات ان وجد"/>
+                            <Entry x:Name="Punish"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="التدرج الوظيفي"/>
+                            <Entry x:Name="Gradation"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المستوى الوظيفي"/>
+                            <Entry x:Name="Level"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الدورات الحاصل عليها"/>
+                            <Entry x:Name="Cources"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الاجازات الخاصة الحاصل عليها"/>
+                            <Entry x:Name="Holiday"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الدرجة"/>
+                            <Entry x:Name="Degree"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ الحصول علي الدرجة"/>
+                            <DatePicker BackgroundColor="Gray" x:Name="DegreeDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المجموعة الوظيفية"/>
+                            <Entry x:Name="CarrerGroup"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المجموعة النوعية"/>
+                            <Entry x:Name="QualityGroup"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المسمى الوظيفي"/>
+                            <Entry x:Name="JobTitle"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="العمل القائم به"/>
+                            <Entry x:Name="JobWork"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="المؤهل"/>
+                            <Entry x:Name="Qualification"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تخصص المؤهل"/>
+                            <Entry x:Name="QualificationSpeciality"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ التعيين"/>
+                            <DatePicker BackgroundColor="Gray" x:Name="HiringDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="تاريخ الميلاد"/>
+                            <DatePicker BackgroundColor="Gray" x:Name="BirthDate"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="الرقم القومي"/>
+                            <Entry x:Name="NationalID"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="القطاع"/>
+                            <Entry x:Name="Section"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <Label Text="جهة العمل"/>
+                            <Entry x:Name="WorkAt"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </ScrollView>
+            <Button Text="حفظ" x:Name="Save" FontAttributes="Bold" Clicked="Save_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
